@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #d91b5c;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.car-details {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.car-images {
+    flex: 1;
+}
+
+.car-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.thumbnail-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.thumbnail-container img {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.thumbnail-container img:hover {
+    border-color: #d91b5c;
+}
+
+.car-info {
+    flex: 1;
+}
+
+.car-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.car-specs {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.car-specs li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d91b5c;
+    margin-bottom: 20px;
+}
+
+.btn-contact {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d91b5c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-contact:hover {
+    background-color: #a91545;
+}
+
+header {
+    background-color: #d91b5c;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+#imgLogin{
+    width: 60px;
+    height: 60px;
+}
+.fotoLogin{
+    padding-left: 500px;
+}
+#txtLogin{
+    color: white;
+    text-align: center;
+}
+.cabecalho a{
+    text-align: center;
+    padding-top: 40px;
+}
